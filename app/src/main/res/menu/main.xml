@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="1"
+        android:title="SORT"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/Popular"
+                android:orderInCategory="1"
+                android:title="Popular"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/Rated"
+                android:orderInCategory="1"
+                android:title="Rated"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+
+</menu>
