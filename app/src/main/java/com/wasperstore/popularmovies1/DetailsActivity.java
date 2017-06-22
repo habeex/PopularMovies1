@@ -49,6 +49,12 @@ public class DetailsActivity extends AppCompatActivity {
         // Set title of Detail page
         collapsingToolbar.setTitle(" ");
 
+        Bundle extras = intent.getExtras();
+        if (extras != null){
+            if (extras.containsKey("poster_path")){
+                boolean isNew = extras.getBoolean("poster_path", false);
+            }
+        }
 
         String url = NetworkUtils.buildMovieUrl(intent.getStringExtra("poster_path")).toString();
         Picasso.with(context).load(url)

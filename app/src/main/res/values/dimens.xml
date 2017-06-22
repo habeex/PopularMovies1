@@ -8,4 +8,28 @@
     <dimen name="article_keylines">72dp</dimen>
     <dimen name="article_titles">20sp</dimen>
     <dimen name="app_bar_height">356dp</dimen>
+
+    <dimen name="error_m_d">16dp</dimen>
+    <dimen name="error_m_d_text">20sp</dimen>
+    <dimen name="progress_width">42dp</dimen>
+    <dimen name="progress_height">42dp</dimen>
+    <dimen name="cardview_l_margin">10dp</dimen>
+    <dimen name="cardview_elevation">60dp</dimen>
+    <dimen name="cardview_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="view_height">2dp</dimen>
+    <dimen name="tittle_text_padding">4dp</dimen>
+    <dimen name="Rating_layout_marginEnd">5dp</dimen>
+    <dimen name="rating_layout_marginRight">5dp</dimen>
+    <dimen name="rating_bar">5dp</dimen>
+    <dimen name="paddingLeft">40dp</dimen>
+    <dimen name="details_tittle">20sp</dimen>
+    <dimen name="release_date">20sp</dimen>
+    <dimen name="release_layout_marginTop">4dp</dimen>
+    <dimen name="view_layout_margin">4dp</dimen>
+    <dimen name="view_layout_height">1dp</dimen>
+    <dimen name="overview_text_size">16sp</dimen>
+    <dimen name="overview_layout_marginBottom">4dp</dimen>
+    <dimen name="view_layout_margin2">2dp</dimen>
+    <dimen name="average_vote_margin_left">4dp</dimen>
 </resources>

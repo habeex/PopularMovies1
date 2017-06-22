@@ -16,16 +16,16 @@
         android:id="@+id/tv_error_message_display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:text="@string/error_message"
-        android:textSize="20sp"
+        android:padding="@dimen/error_m_d"
+        tools:text="@string/error_message"
+        android:textSize="@dimen/error_m_d_text"
         android:visibility="invisible" />
 
 
     <ProgressBar
         android:id="@+id/pb_loading_indicator"
-        android:layout_width="42dp"
-        android:layout_height="42dp"
+        android:layout_width="@dimen/progress_width"
+        android:layout_height="@dimen/progress_height"
         android:layout_gravity="center"
         android:visibility="invisible" />
 
