@@ -2,7 +2,7 @@
     <string name="app_name">Popular Movies 1</string>
     <string name="search">Search</string>
     <string name="error_message">No Internet Connect, Please Turn ON data and click RETRY</string>
-    <string name="vote_average">Vote Average</string>
+    <string name="vote_average">Vote average</string>
     <string name="tittle">Title</string>
     <string name="rating">Rating</string>
     <string name="rating_scores">3.3</string>
