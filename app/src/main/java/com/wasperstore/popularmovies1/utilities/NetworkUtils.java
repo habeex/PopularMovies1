@@ -36,7 +36,7 @@ public class NetworkUtils {
     private static final String BASE_API_URL =
             "https://api.themoviedb.org/3/";
     private static final String API_KEY =
-            "d907161b6c5e62b72221f75c41aa4e99";
+            "";
     private static final String DEFAULT_SORT_TYPE =
             "movie/popular";
 
