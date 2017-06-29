@@ -16,6 +16,7 @@
 package com.wasperstore.popularmovies1.utilities;
 
 import android.net.Uri;
+import android.support.compat.BuildConfig;
 import android.util.Log;
 
 import java.io.IOException;
@@ -35,8 +36,7 @@ public class NetworkUtils {
 
     private static final String BASE_API_URL =
             "https://api.themoviedb.org/3/";
-    private static final String API_KEY =
-            "";
+
     private static final String DEFAULT_SORT_TYPE =
             "movie/popular";
 
@@ -46,7 +46,11 @@ public class NetworkUtils {
             "w185/";
 
 
+
+
     public static URL buildUrl(String sort) {
+        String API_KEY =
+                com.wasperstore.popularmovies1.BuildConfig.MOVIE_API_KEY;
         Uri builtUri = Uri.parse(BASE_API_URL + sort + "?api_key=" + API_KEY).buildUpon()
                 .build();
 
